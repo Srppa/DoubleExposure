@@ -12,6 +12,8 @@ public class DemoMenu : MonoBehaviour
 
     [SerializeField] private Button SharkButton;
 
+    [SerializeField] private Button SpiderButton;
+
     [SerializeField] private Button ShowButton;
 
     [SerializeField] private Button HideButton;
@@ -42,6 +44,8 @@ public class DemoMenu : MonoBehaviour
     {
         SharkButton.onClick.AddListener(OnSharkButtonClicked);
 
+        SpiderButton.onClick.AddListener(OnSpiderButtonClicked);
+
         ShowButton.onClick.AddListener(OnShowClicked);
 
         HideButton.onClick.AddListener(OnHideClicked);
@@ -67,6 +71,20 @@ public class DemoMenu : MonoBehaviour
         if (AnimalReference == null)
         {
             GameObject obj = Instantiate(SharkPrefab);
+            AnimalReference = obj;
+            obj.GetComponent<NetworkObject>().Spawn();
+
+
+            AnimalSelectionParent.SetActive(false);
+            AnimalControlParent.SetActive(true);
+        }
+    }
+
+    void OnSpiderButtonClicked()
+    {
+        if (AnimalReference == null)
+        {
+            GameObject obj = Instantiate(SpiderPrefab);
             AnimalReference = obj;
             obj.GetComponent<NetworkObject>().Spawn();
 
@@ -119,7 +137,7 @@ public class DemoMenu : MonoBehaviour
             yield return new WaitForSeconds(1);
             Console.text += "\nHiding menu...";
             yield return new WaitForSeconds(2);
-            //Destroy(gameObject);
+            Destroy(gameObject);
         }
         else if(info == "colocationReady")
         {
