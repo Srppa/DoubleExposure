@@ -1,0 +1,499 @@
+fileFormatVersion: 2
+guid: f67ac94ec073ba343b60288dace44197
+timeCreated: 1490378273
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: blackwidow_Abdomen-nub_bone
+    100004: blackwidow_Abdomen_bone
+    100006: blackwidow_Abdomen_ctrl
+    100008: blackwidow_Cephalothorax-nub_bone
+    100010: blackwidow_Cephalothorax_bone
+    100012: blackwidow_Cephalothorax_ctrl
+    100014: blackwidow_l_Chelicera-nub_bone
+    100016: blackwidow_l_Chelicera_bone
+    100018: blackwidow_l_Chelicera_ctrl
+    100020: blackwidow_l_Leg1-Coxa_bone
+    100022: blackwidow_l_Leg1-Coxa_ctrl
+    100024: blackwidow_l_Leg1-Femur_bone
+    100026: blackwidow_l_Leg1-Tarsus-nub_bone
+    100028: blackwidow_l_Leg1-Tarsus_bone
+    100030: blackwidow_l_Leg1-Tibia_bone
+    100032: blackwidow_l_Leg1_ctrl
+    100034: blackwidow_l_Leg1_IKGoal
+    100036: blackwidow_l_Leg2-Coxa_bone
+    100038: blackwidow_l_Leg2-Coxa_ctrl
+    100040: blackwidow_l_Leg2-Femur_bone
+    100042: blackwidow_l_Leg2-Tarsus-nub_bone
+    100044: blackwidow_l_Leg2-Tarsus_bone
+    100046: blackwidow_l_Leg2-Tibia_bone
+    100048: blackwidow_l_Leg2_ctrl
+    100050: blackwidow_l_Leg2_IKGoal
+    100052: blackwidow_l_Leg3-Coxa_bone
+    100054: blackwidow_l_Leg3-Coxa_ctrl
+    100056: blackwidow_l_Leg3-Femur_bone
+    100058: blackwidow_l_Leg3-Metatarsus_bone
+    100060: blackwidow_l_Leg3-Tarsus-nub_bone
+    100062: blackwidow_l_Leg3-Tibia_bone
+    100064: blackwidow_l_Leg3_ctrl
+    100066: blackwidow_l_Leg3_IKGoal
+    100068: blackwidow_l_Leg4-Coxa_bone
+    100070: blackwidow_l_Leg4-Coxa_ctrl
+    100072: blackwidow_l_Leg4-Femur_bone
+    100074: blackwidow_l_Leg4-Tarsus-nub_bone
+    100076: blackwidow_l_Leg4-Tarsus_bone
+    100078: blackwidow_l_Leg4-Tibia_bone
+    100080: blackwidow_l_Leg4_ctrl
+    100082: blackwidow_l_Leg4_IKGoal
+    100084: blackwidow_l_Palp1_bone
+    100086: blackwidow_l_Palp1_ctrl
+    100088: blackwidow_l_Palp2_bone
+    100090: blackwidow_l_Palp3_bone
+    100092: blackwidow_l_Palp3_ctrl
+    100094: blackwidow_l_Palp4-nub_bone
+    100096: blackwidow_l_Palp4-nub_ctrl
+    100098: blackwidow_l_Palp4_bone
+    100100: blackwidow_Main_ctrl
+    100102: blackwidow_r_Chelicera-nub_bone
+    100104: blackwidow_r_Chelicera_bone
+    100106: blackwidow_r_Chelicera_ctrl
+    100108: blackwidow_r_Leg1-Coxa_bone
+    100110: blackwidow_r_Leg1-Coxa_ctrl
+    100112: blackwidow_r_Leg1-Femur_bone
+    100114: blackwidow_r_Leg1-Tarsus-nub_bone
+    100116: blackwidow_r_Leg1-Tarsus_bone
+    100118: blackwidow_r_Leg1-Tibia_bone
+    100120: blackwidow_r_Leg1_ctrl
+    100122: blackwidow_r_Leg1_IKGoal
+    100124: blackwidow_r_Leg2-Coxa_bone
+    100126: blackwidow_r_Leg2-Coxa_ctrl
+    100128: blackwidow_r_Leg2-Femur_bone
+    100130: blackwidow_r_Leg2-Tarsus-nub_bone
+    100132: blackwidow_r_Leg2-Tarsus_bone
+    100134: blackwidow_r_Leg2-Tibia_bone
+    100136: blackwidow_r_Leg2_ctrl
+    100138: blackwidow_r_Leg2_IKGoal
+    100140: blackwidow_r_Leg3-Coxa_bone
+    100142: blackwidow_r_Leg3-Coxa_ctrl
+    100144: blackwidow_r_Leg3-Femur_bone
+    100146: blackwidow_r_Leg3-Metatarsus_bone
+    100148: blackwidow_r_Leg3-Tarsus-nub_bone
+    100150: blackwidow_r_Leg3-Tibia_bone
+    100152: blackwidow_r_Leg3_ctrl
+    100154: blackwidow_r_Leg3_IKGoal
+    100156: blackwidow_r_Leg4-Coxa_bone
+    100158: blackwidow_r_Leg4-Coxa_ctrl
+    100160: blackwidow_r_Leg4-Femur_bone
+    100162: blackwidow_r_Leg4-Tarsus-nub_bone
+    100164: blackwidow_r_Leg4-Tarsus_bone
+    100166: blackwidow_r_Leg4-Tibia_bone
+    100168: blackwidow_r_Leg4_ctrl
+    100170: blackwidow_r_Leg4_IKGoal
+    100172: blackwidow_r_Palp1_bone
+    100174: blackwidow_r_Palp1_ctrl
+    100176: blackwidow_r_Palp2_bone
+    100178: blackwidow_r_Palp3_bone
+    100180: blackwidow_r_Palp3_ctrl
+    100182: blackwidow_r_Palp4-nub_bone
+    100184: blackwidow_r_Palp4-nub_ctrl
+    100186: blackwidow_r_Palp4_bone
+    100188: Spider
+    400000: //RootNode
+    400002: blackwidow_Abdomen-nub_bone
+    400004: blackwidow_Abdomen_bone
+    400006: blackwidow_Abdomen_ctrl
+    400008: blackwidow_Cephalothorax-nub_bone
+    400010: blackwidow_Cephalothorax_bone
+    400012: blackwidow_Cephalothorax_ctrl
+    400014: blackwidow_l_Chelicera-nub_bone
+    400016: blackwidow_l_Chelicera_bone
+    400018: blackwidow_l_Chelicera_ctrl
+    400020: blackwidow_l_Leg1-Coxa_bone
+    400022: blackwidow_l_Leg1-Coxa_ctrl
+    400024: blackwidow_l_Leg1-Femur_bone
+    400026: blackwidow_l_Leg1-Tarsus-nub_bone
+    400028: blackwidow_l_Leg1-Tarsus_bone
+    400030: blackwidow_l_Leg1-Tibia_bone
+    400032: blackwidow_l_Leg1_ctrl
+    400034: blackwidow_l_Leg1_IKGoal
+    400036: blackwidow_l_Leg2-Coxa_bone
+    400038: blackwidow_l_Leg2-Coxa_ctrl
+    400040: blackwidow_l_Leg2-Femur_bone
+    400042: blackwidow_l_Leg2-Tarsus-nub_bone
+    400044: blackwidow_l_Leg2-Tarsus_bone
+    400046: blackwidow_l_Leg2-Tibia_bone
+    400048: blackwidow_l_Leg2_ctrl
+    400050: blackwidow_l_Leg2_IKGoal
+    400052: blackwidow_l_Leg3-Coxa_bone
+    400054: blackwidow_l_Leg3-Coxa_ctrl
+    400056: blackwidow_l_Leg3-Femur_bone
+    400058: blackwidow_l_Leg3-Metatarsus_bone
+    400060: blackwidow_l_Leg3-Tarsus-nub_bone
+    400062: blackwidow_l_Leg3-Tibia_bone
+    400064: blackwidow_l_Leg3_ctrl
+    400066: blackwidow_l_Leg3_IKGoal
+    400068: blackwidow_l_Leg4-Coxa_bone
+    400070: blackwidow_l_Leg4-Coxa_ctrl
+    400072: blackwidow_l_Leg4-Femur_bone
+    400074: blackwidow_l_Leg4-Tarsus-nub_bone
+    400076: blackwidow_l_Leg4-Tarsus_bone
+    400078: blackwidow_l_Leg4-Tibia_bone
+    400080: blackwidow_l_Leg4_ctrl
+    400082: blackwidow_l_Leg4_IKGoal
+    400084: blackwidow_l_Palp1_bone
+    400086: blackwidow_l_Palp1_ctrl
+    400088: blackwidow_l_Palp2_bone
+    400090: blackwidow_l_Palp3_bone
+    400092: blackwidow_l_Palp3_ctrl
+    400094: blackwidow_l_Palp4-nub_bone
+    400096: blackwidow_l_Palp4-nub_ctrl
+    400098: blackwidow_l_Palp4_bone
+    400100: blackwidow_Main_ctrl
+    400102: blackwidow_r_Chelicera-nub_bone
+    400104: blackwidow_r_Chelicera_bone
+    400106: blackwidow_r_Chelicera_ctrl
+    400108: blackwidow_r_Leg1-Coxa_bone
+    400110: blackwidow_r_Leg1-Coxa_ctrl
+    400112: blackwidow_r_Leg1-Femur_bone
+    400114: blackwidow_r_Leg1-Tarsus-nub_bone
+    400116: blackwidow_r_Leg1-Tarsus_bone
+    400118: blackwidow_r_Leg1-Tibia_bone
+    400120: blackwidow_r_Leg1_ctrl
+    400122: blackwidow_r_Leg1_IKGoal
+    400124: blackwidow_r_Leg2-Coxa_bone
+    400126: blackwidow_r_Leg2-Coxa_ctrl
+    400128: blackwidow_r_Leg2-Femur_bone
+    400130: blackwidow_r_Leg2-Tarsus-nub_bone
+    400132: blackwidow_r_Leg2-Tarsus_bone
+    400134: blackwidow_r_Leg2-Tibia_bone
+    400136: blackwidow_r_Leg2_ctrl
+    400138: blackwidow_r_Leg2_IKGoal
+    400140: blackwidow_r_Leg3-Coxa_bone
+    400142: blackwidow_r_Leg3-Coxa_ctrl
+    400144: blackwidow_r_Leg3-Femur_bone
+    400146: blackwidow_r_Leg3-Metatarsus_bone
+    400148: blackwidow_r_Leg3-Tarsus-nub_bone
+    400150: blackwidow_r_Leg3-Tibia_bone
+    400152: blackwidow_r_Leg3_ctrl
+    400154: blackwidow_r_Leg3_IKGoal
+    400156: blackwidow_r_Leg4-Coxa_bone
+    400158: blackwidow_r_Leg4-Coxa_ctrl
+    400160: blackwidow_r_Leg4-Femur_bone
+    400162: blackwidow_r_Leg4-Tarsus-nub_bone
+    400164: blackwidow_r_Leg4-Tarsus_bone
+    400166: blackwidow_r_Leg4-Tibia_bone
+    400168: blackwidow_r_Leg4_ctrl
+    400170: blackwidow_r_Leg4_IKGoal
+    400172: blackwidow_r_Palp1_bone
+    400174: blackwidow_r_Palp1_ctrl
+    400176: blackwidow_r_Palp2_bone
+    400178: blackwidow_r_Palp3_bone
+    400180: blackwidow_r_Palp3_ctrl
+    400182: blackwidow_r_Palp4-nub_bone
+    400184: blackwidow_r_Palp4-nub_ctrl
+    400186: blackwidow_r_Palp4_bone
+    400188: Spider
+    2300000: blackwidow_l_Leg1_ctrl
+    2300002: blackwidow_l_Leg2_ctrl
+    2300004: blackwidow_l_Leg3_ctrl
+    2300006: blackwidow_l_Leg4_ctrl
+    2300008: blackwidow_r_Leg1_ctrl
+    2300010: blackwidow_r_Leg2_ctrl
+    2300012: blackwidow_r_Leg3_ctrl
+    2300014: blackwidow_r_Leg4_ctrl
+    3300000: blackwidow_l_Leg1_ctrl
+    3300002: blackwidow_l_Leg2_ctrl
+    3300004: blackwidow_l_Leg3_ctrl
+    3300006: blackwidow_l_Leg4_ctrl
+    3300008: blackwidow_r_Leg1_ctrl
+    3300010: blackwidow_r_Leg2_ctrl
+    3300012: blackwidow_r_Leg3_ctrl
+    3300014: blackwidow_r_Leg4_ctrl
+    4300000: Spider
+    4300002: blackwidow_r_Leg2_ctrl
+    4300004: blackwidow_r_Leg3_ctrl
+    4300006: blackwidow_r_Leg4_ctrl
+    4300008: blackwidow_r_Leg1_ctrl
+    4300010: blackwidow_l_Leg1_ctrl
+    4300012: blackwidow_l_Leg2_ctrl
+    4300014: blackwidow_l_Leg3_ctrl
+    4300016: blackwidow_l_Leg4_ctrl
+    7400000: idle
+    9500000: //RootNode
+    13700000: Spider
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 104
+      lastFrame: 152
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: blackwidow_Abdomen_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_Abdomen_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_Abdomen_bone/blackwidow_Abdomen-nub_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_Cephalothorax-nub_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Chelicera_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Chelicera_bone/blackwidow_l_Chelicera-nub_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Chelicera_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Leg1-Coxa_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Leg1-Coxa_bone/blackwidow_l_Leg1-Femur_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Leg1-Coxa_bone/blackwidow_l_Leg1-Femur_bone/blackwidow_l_Leg1-Tibia_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Leg1-Coxa_bone/blackwidow_l_Leg1-Femur_bone/blackwidow_l_Leg1-Tibia_bone/blackwidow_l_Leg1-Tarsus_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Leg1-Coxa_bone/blackwidow_l_Leg1-Femur_bone/blackwidow_l_Leg1-Tibia_bone/blackwidow_l_Leg1-Tarsus_bone/blackwidow_l_Leg1-Tarsus-nub_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Leg1-Coxa_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Leg2-Coxa_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Leg2-Coxa_bone/blackwidow_l_Leg2-Femur_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Leg2-Coxa_bone/blackwidow_l_Leg2-Femur_bone/blackwidow_l_Leg2-Tibia_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Leg2-Coxa_bone/blackwidow_l_Leg2-Femur_bone/blackwidow_l_Leg2-Tibia_bone/blackwidow_l_Leg2-Tarsus_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Leg2-Coxa_bone/blackwidow_l_Leg2-Femur_bone/blackwidow_l_Leg2-Tibia_bone/blackwidow_l_Leg2-Tarsus_bone/blackwidow_l_Leg2-Tarsus-nub_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Leg2-Coxa_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Leg3-Coxa_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Leg3-Coxa_bone/blackwidow_l_Leg3-Femur_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Leg3-Coxa_bone/blackwidow_l_Leg3-Femur_bone/blackwidow_l_Leg3-Tibia_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Leg3-Coxa_bone/blackwidow_l_Leg3-Femur_bone/blackwidow_l_Leg3-Tibia_bone/blackwidow_l_Leg3-Metatarsus_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Leg3-Coxa_bone/blackwidow_l_Leg3-Femur_bone/blackwidow_l_Leg3-Tibia_bone/blackwidow_l_Leg3-Metatarsus_bone/blackwidow_l_Leg3-Tarsus-nub_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Leg3-Coxa_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Leg4-Coxa_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Leg4-Coxa_bone/blackwidow_l_Leg4-Femur_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Leg4-Coxa_bone/blackwidow_l_Leg4-Femur_bone/blackwidow_l_Leg4-Tibia_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Leg4-Coxa_bone/blackwidow_l_Leg4-Femur_bone/blackwidow_l_Leg4-Tibia_bone/blackwidow_l_Leg4-Tarsus_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Leg4-Coxa_bone/blackwidow_l_Leg4-Femur_bone/blackwidow_l_Leg4-Tibia_bone/blackwidow_l_Leg4-Tarsus_bone/blackwidow_l_Leg4-Tarsus-nub_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Leg4-Coxa_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Palp1_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Palp1_bone/blackwidow_l_Palp2_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Palp1_bone/blackwidow_l_Palp2_bone/blackwidow_l_Palp3_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Palp1_bone/blackwidow_l_Palp2_bone/blackwidow_l_Palp3_bone/blackwidow_l_Palp4_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Palp1_bone/blackwidow_l_Palp2_bone/blackwidow_l_Palp3_bone/blackwidow_l_Palp4_bone/blackwidow_l_Palp4-nub_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Palp1_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Palp1_ctrl/blackwidow_l_Palp3_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_l_Palp1_ctrl/blackwidow_l_Palp3_ctrl/blackwidow_l_Palp4-nub_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Chelicera_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Chelicera_bone/blackwidow_r_Chelicera-nub_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Chelicera_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Leg1-Coxa_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Leg1-Coxa_bone/blackwidow_r_Leg1-Femur_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Leg1-Coxa_bone/blackwidow_r_Leg1-Femur_bone/blackwidow_r_Leg1-Tibia_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Leg1-Coxa_bone/blackwidow_r_Leg1-Femur_bone/blackwidow_r_Leg1-Tibia_bone/blackwidow_r_Leg1-Tarsus_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Leg1-Coxa_bone/blackwidow_r_Leg1-Femur_bone/blackwidow_r_Leg1-Tibia_bone/blackwidow_r_Leg1-Tarsus_bone/blackwidow_r_Leg1-Tarsus-nub_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Leg1-Coxa_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Leg2-Coxa_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Leg2-Coxa_bone/blackwidow_r_Leg2-Femur_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Leg2-Coxa_bone/blackwidow_r_Leg2-Femur_bone/blackwidow_r_Leg2-Tibia_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Leg2-Coxa_bone/blackwidow_r_Leg2-Femur_bone/blackwidow_r_Leg2-Tibia_bone/blackwidow_r_Leg2-Tarsus_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Leg2-Coxa_bone/blackwidow_r_Leg2-Femur_bone/blackwidow_r_Leg2-Tibia_bone/blackwidow_r_Leg2-Tarsus_bone/blackwidow_r_Leg2-Tarsus-nub_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Leg2-Coxa_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Leg3-Coxa_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Leg3-Coxa_bone/blackwidow_r_Leg3-Femur_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Leg3-Coxa_bone/blackwidow_r_Leg3-Femur_bone/blackwidow_r_Leg3-Tibia_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Leg3-Coxa_bone/blackwidow_r_Leg3-Femur_bone/blackwidow_r_Leg3-Tibia_bone/blackwidow_r_Leg3-Metatarsus_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Leg3-Coxa_bone/blackwidow_r_Leg3-Femur_bone/blackwidow_r_Leg3-Tibia_bone/blackwidow_r_Leg3-Metatarsus_bone/blackwidow_r_Leg3-Tarsus-nub_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Leg3-Coxa_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Leg4-Coxa_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Leg4-Coxa_bone/blackwidow_r_Leg4-Femur_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Leg4-Coxa_bone/blackwidow_r_Leg4-Femur_bone/blackwidow_r_Leg4-Tibia_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Leg4-Coxa_bone/blackwidow_r_Leg4-Femur_bone/blackwidow_r_Leg4-Tibia_bone/blackwidow_r_Leg4-Tarsus_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Leg4-Coxa_bone/blackwidow_r_Leg4-Femur_bone/blackwidow_r_Leg4-Tibia_bone/blackwidow_r_Leg4-Tarsus_bone/blackwidow_r_Leg4-Tarsus-nub_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Leg4-Coxa_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Palp1_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Palp1_bone/blackwidow_r_Palp2_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Palp1_bone/blackwidow_r_Palp2_bone/blackwidow_r_Palp3_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Palp1_bone/blackwidow_r_Palp2_bone/blackwidow_r_Palp3_bone/blackwidow_r_Palp4_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Palp1_bone/blackwidow_r_Palp2_bone/blackwidow_r_Palp3_bone/blackwidow_r_Palp4_bone/blackwidow_r_Palp4-nub_bone
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Palp1_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Palp1_ctrl/blackwidow_r_Palp3_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_Cephalothorax_ctrl/blackwidow_Cephalothorax_bone/blackwidow_r_Palp1_ctrl/blackwidow_r_Palp3_ctrl/blackwidow_r_Palp4-nub_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_l_Leg1_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_l_Leg1_ctrl/blackwidow_l_Leg1_IKGoal
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_l_Leg2_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_l_Leg2_ctrl/blackwidow_l_Leg2_IKGoal
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_l_Leg3_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_l_Leg3_ctrl/blackwidow_l_Leg3_IKGoal
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_l_Leg4_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_l_Leg4_ctrl/blackwidow_l_Leg4_IKGoal
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_r_Leg1_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_r_Leg1_ctrl/blackwidow_r_Leg1_IKGoal
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_r_Leg2_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_r_Leg2_ctrl/blackwidow_r_Leg2_IKGoal
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_r_Leg3_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_r_Leg3_ctrl/blackwidow_r_Leg3_IKGoal
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_r_Leg4_ctrl
+        weight: 1
+      - path: blackwidow_Main_ctrl/blackwidow_r_Leg4_ctrl/blackwidow_r_Leg4_IKGoal
+        weight: 1
+      - path: Spider
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: blackwidow_Main_ctrl
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
