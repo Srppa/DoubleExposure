@@ -604,7 +604,6 @@ GameObject:
   - component: {fileID: 5139491470159778973}
   - component: {fileID: 532736247314675756}
   - component: {fileID: 145591652870414583}
-  - component: {fileID: 2133216656011183544}
   m_Layer: 0
   m_Name: Blackwidow
   m_TagString: Untagged
@@ -659,7 +658,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1471191031677693827}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: af9d23a6848543140b362a1a9e88f3ea, type: 3}
   m_Name: 
@@ -1612,7 +1611,7 @@ MonoBehaviour:
   StabilizeCenterOfMass: 0.8
   AnimationIsStablePose: 0.75
   StabilizingSpeed: 0.375
-  PushHipsOnLegMove: 0.015
+  PushHipsOnLegMove: 0.478
   NormalizePush: 1
   PushReactionSpeed: 0.3
   PushYBlend: 1
@@ -2120,7 +2119,7 @@ MonoBehaviour:
   _EditorAllowAutoUpdateFeetParams: 1
   _EditorCategory: 1
   _EditorSetupCategory: 1
-  _EditorMotionCategory: 3
+  _EditorMotionCategory: 1
   _EditorExtraCategory: 1
   setupPose:
     MainHipsPose:
@@ -2168,21 +2167,6 @@ MonoBehaviour:
   LegsAnimatorBlend: 1
   _Editor_DefaultModuleOnStart: {fileID: 11400000, guid: 7d9bd86d54a7a594cb1793f9533e2e00, type: 2}
   _Editor_LegHelperModule: {fileID: 11400000, guid: 0645fbea8059aec47aa6ae9d2c93c1d4, type: 2}
---- !u!114 &2133216656011183544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1471191031677693827}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63f97bb4e409d5a4ba1041518da16308, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ForwardMover
-  moveSpeed: 0.15
-  useFixedUpdate: 0
-  isMoving: 1
 --- !u!1 &1475810584924997959
 GameObject:
   m_ObjectHideFlags: 0
@@ -3865,14 +3849,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4934611382028774046}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.000000029802315, y: -0.00000013783571, z: 0.46464065, w: 0.88549936}
-  m_LocalPosition: {x: -0.14244074, y: 0.0000019855797, z: 0.000000052154064}
+  m_LocalRotation: {x: -0.009259459, y: -0.004429894, z: 0.42337865, w: 0.9058947}
+  m_LocalPosition: {x: -0.14244695, y: 0.000009692274, z: -0.00000094249845}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4020334641272130558}
   m_Father: {fileID: 1889798179911227361}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 55.374}
+  m_LocalEulerAnglesHint: {x: -0.746, y: -0.909, z: 50.105}
 --- !u!1 &5040690270607871407
 GameObject:
   m_ObjectHideFlags: 0
@@ -4436,14 +4420,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6745148028338105619}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00000051697793, y: 0.00000002516934, z: 0.19714816, w: 0.98037374}
-  m_LocalPosition: {x: -0.11600871, y: 0.0000033322722, z: -0.0000009668403}
+  m_LocalRotation: {x: -0.000000471123, y: 0.000000080533006, z: 0.3628259, w: 0.93185705}
+  m_LocalPosition: {x: -0.116014, y: 0.000013243407, z: -0.0000048951624}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 602753298625783008}
   m_Father: {fileID: 1714544503243272931}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 22.74}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 42.548}
 --- !u!1 &6847004798992381232
 GameObject:
   m_ObjectHideFlags: 0

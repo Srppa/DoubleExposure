@@ -614,7 +614,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Meta.XR.BuildingBlocks::Meta.XR.BuildingBlocks.BuildingBlock
   blockId: f8766c17-aaf8-4b55-9431-de8deea83842
-  instanceId: 5488bd5e-7e1f-4706-b7cd-627abbb4d59c
+  instanceId: a01194f0-588e-4add-be8f-f732214f29e6
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: f8338144-8280-4ff6-9455-ae2bb9c20fe8
@@ -1625,6 +1625,7 @@ GameObject:
   - component: {fileID: 8982904924913753566}
   - component: {fileID: 996597236168504641}
   - component: {fileID: 2806631214429504624}
+  - component: {fileID: 1165787721941564259}
   m_Layer: 0
   m_Name: '[BuildingBlock] Shark'
   m_TagString: Untagged
@@ -1662,7 +1663,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Meta.XR.BuildingBlocks::Meta.XR.BuildingBlocks.BuildingBlock
   blockId: e9b4b64f-1c7e-4dff-8f3c-ce409bdc3951
-  instanceId: 86c0fd4e-0995-4617-9109-8cd65e70afd9
+  instanceId: ef29c2b4-4abb-4e1e-9480-a3d153bdb8fd
   version: 1
   installationRoutineCheckpoint:
     _installationRoutineId: d5c83ff6-47e4-4c98-acdd-041d4686912f
@@ -1824,7 +1825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
-  GlobalObjectIdHash: 3866407441
+  GlobalObjectIdHash: 3419799083
   InScenePlacedSourceGlobalObjectIdHash: 4105068533
   DeferredDespawnTick: 0
   Ownership: 1
@@ -1973,7 +1974,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AnimalController
   ShowTopMostFoldoutHeaderGroup: 1
   sessionControllerReference: {fileID: 0}
-  SharkVisuals: {fileID: 7155158355022040423}
+  Visuals: {fileID: 7155158355022040423}
+  movementControllerController: {fileID: 1165787721941564259}
+--- !u!114 &1165787721941564259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5465566276605084558}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b0af887c37e7de4788e18dea9035d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MovementController
+  ShowTopMostFoldoutHeaderGroup: 1
+  rotationSpeed: 10
+  moveSpeed: 0.5
+  lateralDriftAmount: 0.3
+  driftFrequency: 1.5
+  minMoveDistance: 2
+  maxMoveDistance: 6
+  minDelayAfterRotation: 0.3
+  maxDelayAfterRotation: 1.2
+  minDelayAfterMove: 0.5
+  maxDelayAfterMove: 2
 --- !u!1 &5548673382188722234
 GameObject:
   m_ObjectHideFlags: 0
@@ -2329,6 +2354,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7257703405062409652}
+  - component: {fileID: 7688830102158005605}
   m_Layer: 0
   m_Name: Realistic Shark
   m_TagString: Untagged
@@ -2358,6 +2384,28 @@ Transform:
   - {fileID: 3128593235494372864}
   m_Father: {fileID: 1567403996392344944}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &7688830102158005605
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7155158355022040423}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe05b53f50fa85545813688fba2a3e51, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7302121803515949820
 GameObject:
   m_ObjectHideFlags: 0

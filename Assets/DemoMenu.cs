@@ -18,6 +18,10 @@ public class DemoMenu : MonoBehaviour
 
     [SerializeField] private Button HideButton;
 
+    [SerializeField] private Button PlayButton;
+
+    [SerializeField] private Button StopButton;
+
     [SerializeField] private GameObject SharkPrefab;
 
     [SerializeField] private GameObject RatPrefab;
@@ -49,6 +53,10 @@ public class DemoMenu : MonoBehaviour
         ShowButton.onClick.AddListener(OnShowClicked);
 
         HideButton.onClick.AddListener(OnHideClicked);
+
+        PlayButton.onClick.AddListener(OnPlayClicked);
+
+        StopButton.onClick.AddListener(OnStopClicked);
 
     }
 
@@ -110,6 +118,22 @@ public class DemoMenu : MonoBehaviour
         }
     }
 
+    void OnPlayClicked()
+    {
+        if (AnimalReference != null)
+        {
+            AnimalReference.GetComponent<AnimalController>().StartMoving();
+        }
+    }
+
+    void OnStopClicked()
+    {
+        if (AnimalReference != null)
+        {
+            AnimalReference.GetComponent<AnimalController>().StopMoving();
+        }
+    }
+
     public void ReciveInfo(string info)
     {
         StartCoroutine(RunCodes(info));
@@ -138,10 +162,6 @@ public class DemoMenu : MonoBehaviour
             Console.text += "\nHiding menu...";
             yield return new WaitForSeconds(2);
             Destroy(gameObject);
-        }
-        else if(info == "colocationReady")
-        {
-            Console.text += "\nColololo";
         }
         else
         {

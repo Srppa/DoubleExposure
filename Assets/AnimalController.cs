@@ -6,8 +6,9 @@ public class AnimalController : NetworkBehaviour
 
     public SessionController sessionControllerReference;
 
-    [SerializeField] private GameObject SharkVisuals;
+    [SerializeField] private GameObject Visuals;
 
+    [SerializeField] private MovementController movementControllerController;
 
     public override void OnNetworkSpawn()
     {
@@ -29,7 +30,7 @@ public class AnimalController : NetworkBehaviour
         if (!IsServer)
         {
             Debug.Log("Executed on all clients!");
-            SharkVisuals.SetActive(true);
+            Visuals.SetActive(true);
         }
             // This runs on every connected client
             
@@ -51,9 +52,19 @@ public class AnimalController : NetworkBehaviour
         {
             // This runs on every connected client
             Debug.Log("Executed on all clients!");
-            SharkVisuals.SetActive(false);
+            Visuals.SetActive(false);
         }
         
+    }
+
+    public void StartMoving()
+    {
+        movementControllerController.Play();
+    }
+
+    public void StopMoving()
+    {
+        movementControllerController.Pause();
     }
 
 }
